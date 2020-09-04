@@ -1,1 +1,126 @@
+/*CSS reset*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, 
+pre, form, fieldset, input, textarea, p, blockquote, th, td { 
+    
+    padding: 0;
+    margin: 0;
+    /*border: 1px solid gray;*/
+	}
+fieldset, img { 
+	border: 0;
+	}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+ol, ul {
+	list-style: none;
+	}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-weight: normal;
+	font-style: normal;
+	}
+caption, th {
+	text-align: left;
+	}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-size: 100%;
+	}
+q:before, q:after {
+	content: '';
+	}
+abbr, acronym { 
+	border: 0;
+	}
 /* Add CSS styling here */
+/*General Styles*/
+html {
+	font-size: 62.5%;
+	text-decoration: none;
+}
+body{
+    max-width: 80%;
+    box-sizing: border-box;
+    margin:5px auto;
+	font-size:2.5em;
+	background-image: url('../style/dark.jpg');
+	
+    }
+
+header {border-radius: 2% ;
+    height:300px;
+    background-color:#507dbc;
+    text-align: center;
+	display: flex;
+	flex-direction: column;
+	padding:1%;
+	justify-content: space-between;
+	align-content: space-around;
+   
+
+
+}    
+h1  {
+	font-size: 7em;
+	padding:30px;
+}
+nav {height:50px;}
+nav a {
+    background-color: #a1c6ea;
+    border:3px solid #BBD1EA;
+    padding: 15px;
+	border-radius: 15%;
+	margin:5px 20px 5px
+
+}
+section{
+	border-radius: 2% ;
+	text-align: center;
+	background-color: #a1c6ea;
+
+}
+
+h2  {
+	font-size: 2em;
+	padding:30px;
+	text-align: center;
+}
+
+.hero {
+	background-image: url(../style/diagram.jpeg);
+	padding: 200PX 100px;
+}
+
+.post{
+	display: flex;
+	justify-content: space-around;
+	background: #BBD1EA;
+}
+
+.money {background-image: url(../style/money.jpeg); } 
+.connect {background-image: url(../style/flag.jpeg);}
+.coffee {background-image: url(../style/coffee.jpeg);}
+.dynamic  {background-image: url(../style/dynamic.jpeg);}
+
+.money, .connect, .coffee, .dynamic{
+	height: 600px; width: 310px; margin: 20px;
+}
+
+.rndmTxt {width: 200px;
+margin:20px; padding: 250px 5px 0; 
+}
+
+footer {
+	background-color: #dae3e5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 75px;
+}
+footer a {
+	border:3px solid #BBD1EA;
+    padding: 15px;
+	border-radius: 15%;
+	margin:5px 20px 5px
+}
